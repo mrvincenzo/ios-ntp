@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = 'SNTP implementation for iOS.'
   s.source       = { :git => 'https://github.com/jbenet/ios-ntp.git', :tag => '1.1.9' }
   s.source_files = 'ios-ntp-lib/*.{h,m}'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.dependency       'CocoaAsyncSocket'
 end
